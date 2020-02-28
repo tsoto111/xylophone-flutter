@@ -9,7 +9,7 @@ class XylophoneApp extends StatelessWidget {
     player.play("note$filenameIndex.wav");
   }
 
-  Widget buildKey({MaterialColor keyColor, int soundIndex}) {
+  Widget buildKey({Color keyColor, int soundIndex}) {
     return Expanded(
       child: RawMaterialButton(
         fillColor: keyColor,
